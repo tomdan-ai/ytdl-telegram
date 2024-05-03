@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const ytdl = require('ytdl-core');
 
 // Replace YOUR_BOT_TOKEN with your actual Telegram bot token
-const token = '7030430844:AAGa7x-6VwWCA1i-uzd9MH1nDEMBjIKeIOQ';
+const token = 'BOT_TOKEN';
 const bot = new TelegramBot(token, { polling: true });
 
 // Define a function to handle the /download command
