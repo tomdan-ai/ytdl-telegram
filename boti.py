@@ -80,7 +80,7 @@ def download_video(update: Update, context: CallbackContext) -> None:
 def main() -> None:
     """Start the bot."""
     # Create the Updater and pass it the bot's token.
-    updater = Updater("7030430844:AAGa7x-6VwWCA1i-uzd9MH1nDEMBjIKeIOQ")
+    updater = Updater("BOT_TOKEN")
 
     # Get the dispatcher to register handlers
     dispatcher = updater.dispatcher
